@@ -1,0 +1,25 @@
+.input-group {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 1.3em;
+}
+
+.form-input {
+    border-radius: 10px;
+    padding: 1em;
+    border: 1px solid black;
+    margin-top: 0.5em;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    width: 100%;
+    height: 9em;
+
+}
+
+.send-btn{
+    width:100%;
+}
+

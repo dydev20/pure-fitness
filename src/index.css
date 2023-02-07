@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color:#333333;
+}
+
+a{
+  text-decoration: none;
+  color:#333333;
+}
+
+li{
+  list-style: none;
+}
+
+.page-container{
+  margin-top:5em;
+  margin-bottom:8em;
+}
+
+.green-page-container{
+  padding-top:5em;
+  padding-bottom:2em;
+}
+
+.heading{
+  font-size: 1.938rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 1.5em;
+}
+
+.content-heading{
+  text-align: center;
+}
+
+.subheading{
+  font-size:1.5rem;
+}
+
+.white-heading{
+  color:white;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 50px;
+  font-weight: bold;
+  padding: 1em;
+  border:none;
+}
+
+.green-btn{
+  color: #0c7946;
+  background-color: white;
+  border: 3px solid #0c7946;
+}
+
+.join-btn{
+  background-color: #333333;
+  color: white;
+  
+}
+
+.sign-up-btn:hover{
+  background-color: #7DD4B1;
+}
+
+.green-btn:hover{
+  background-color: #0c7946;
+  color:white;
+}
+
+.button:hover,.navbar-toggle:hover{
+  cursor: pointer;
+}
+
+.card{
+  
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 6rem;
+  padding: 2em 2em;
+  
+    
+}
+
+.status {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: rgb(164, 221, 164);
+  margin-bottom: 2em;
+  
+}
+
+form{
+  width:496px;
+  max-width:496px;
+  margin:0 auto;
+}
+
+@media (max-width:646px){
+  form{
+    width:90%;
+  }
+
+  h2{
+    font-size:1.125rem;
+  }
+
+  .hero-text h2{
+    font-size:2rem;
+  }
+
+  .heading{
+    font-size: 1.313rem;
+  }
+  
+}

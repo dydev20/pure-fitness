@@ -1,0 +1,152 @@
+.hero{
+    background:url("src/assets/hero.jpg") no-repeat center/cover;
+    width:100%;
+    height:380px;
+    z-index: 0;
+}
+
+.overlay{
+    position: relative;
+    background-color: rgba(0,0,0,0.85);
+    z-index: 1;
+    width:100%;
+    height:100%;
+    
+
+}
+
+.cta-container{
+    z-index: 2;
+    
+    position:absolute;
+    top:20%;
+    left:10%;
+    
+}
+
+.hero-text h2{
+    margin-bottom:0.5em;
+}
+
+.cta-buttons{
+    display:flex;
+    gap:1.3em;
+}
+
+.cta-buttons a{
+    width:50%;
+    text-align: center;
+}
+
+.home .join-btn{
+    color: white;
+    background-color: #0c7946;
+}
+
+.trainers-btn {
+    color: white;
+    background-color: #333333;
+}
+
+.home .join-btn:hover{
+    background-color:#0e8b51;
+}
+
+.grey-btn:hover{
+    background-color:#383838;
+}
+
+.home .hero-text{
+    color:white;
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.about-container{
+    padding:0 2em;
+}
+
+.about-content{
+    display: flex;
+    gap:2em;
+    align-items: center;
+}
+
+.about-img{
+    width:50%;
+}
+
+.about-text{
+    width:50%;
+}
+.benefits-container{
+    display:flex;
+    flex-wrap: wrap;
+    border:1px solid red;
+}
+.benefit{
+    width:40%;
+    text-align: center;
+}
+
+.address-container{
+    margin-top:8em;
+}
+
+.address-container ul{
+    margin-bottom:2em;
+}
+
+
+
+@media (max-width:733px){
+    .about-content{
+        flex-direction: column;
+    }
+    .about-img{
+        width:70%;
+        min-width: 250px;
+        margin:auto;
+    }
+    .address-content img{
+        order: -1;
+        margin-top:3em;
+    }
+    .about-text{
+        width:fit-content;
+    }
+    .about-trainer p{
+        margin-top:2.5em;
+    }
+
+}
+
+@media (max-width:650px){
+    .hero{
+        height:300px;
+    }
+
+    .home .hero-text {
+        font-size: 1.4rem;
+        margin-bottom:1.5em;
+    }
+
+    .hero-text h2{
+        margin-bottom:0.2em;
+    }
+
+    .cta-container{
+        top:7%;
+    }
+
+    .cta-buttons{
+        flex-direction: column;
+
+    }
+
+    .cta-buttons a{
+        width:90%;
+        padding:0.7em;
+    }
+
+}

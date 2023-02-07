@@ -1,0 +1,32 @@
+.button-container{
+    text-align: center;
+    margin-bottom:4em;
+}
+
+.membership .join-btn{
+    width:80%;
+    max-width:370px;
+    
+}
+
+/* membership cards */
+.membership-card {
+    border: 2px solid #0c7946;
+    width: 80%;
+}
+
+.membership-card .price {
+
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.membership-card:hover {
+    cursor: pointer;
+}
+
+@media(max-width:700px){
+    .join-btn{
+        width:70%;
+    }
+}
