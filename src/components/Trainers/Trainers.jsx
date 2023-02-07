@@ -9,7 +9,6 @@ export default function Trainers(){
     const [trainers,setTrainers]=React.useState(trainersData)
 
     function toggleBiography(id){
-        console.log("clicked")
         setTrainers(trainers.map(trainer => {
             if (trainer.id === id) {
 

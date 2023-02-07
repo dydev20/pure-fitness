@@ -26,8 +26,7 @@ export default function Navbar(){
 
     /* prevent vertical scrolling when mobile navbar is open */
     React.useEffect(()=>{
-        console.log(mobileNav)
-        console.log(window.screen.width)
+        
         {/* when navbar link is clicked, mobileNav state is toggled to false to close the mobile navbar. Also toggles in desktop navbar which prevents scrolling - only prevent scrolling for mobile navbar*/ }
         if(mobileNav==true && window.screen.width<1020){
             document.body.style.overflow="hidden"

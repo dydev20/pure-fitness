@@ -5,37 +5,7 @@ import "./Timetable.css"
 
 
 export default function Timetable(){
-    const [formData, setFormData] = React.useState({
-        fullName: "",
-        email: "",
-        class: "",
-        date: ""
-    })
-
-    const [formSubmit, setFormSubmit] = React.useState(false)
-
-    React.useEffect(() => {
-        console.log(formData);
-        
-    }, [formData])
-
-    function handleChange(event) {
-        setFormData(prevFormData => {
-            return {
-                ...prevFormData,
-                [event.target.name]: event.target.value
-            }
-
-        })
-
-    }
-
-    function handleSubmit(event) {
-        event.preventDefault()
-        setFormSubmit(true)
-
-    }
-
+    
     return(
         <div>
             <section className="timetable green-page-container">
