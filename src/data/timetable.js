@@ -4,7 +4,7 @@ export default [
         title:"Spin",
         days:"Monday, Wednesday, Friday",
         time:"6:00pm - 7:00pm",
-        image:"src/assets/spin.jpg"
+        image:"/spin.jpg"
 
     },
     {
@@ -12,7 +12,7 @@ export default [
         title: "Rowing",
         days:"Tuesday, Thursday",
         time: "7:00pm - 8:00pm",
-        image: "src/assets/rowing.jpg"
+        image: "/rowing.jpg"
 
     },
     {
@@ -20,7 +20,7 @@ export default [
         title: "Full body",
         days:"Tuesday, Thursday, Saturday, Sunday",
         time: "6:00pm - 7:30pm",
-        image: "src/assets/full-body.jpg"
+        image: "/full-body.jpg"
 
     },
     

@@ -1,5 +1,4 @@
 import React from "react"
-import {AiOutlineWifi} from "react-icons/ai"
 import AddressMap from "./AddressMap"
 import "./Home.css"
 
@@ -30,12 +29,12 @@ export default function Home(){
                 
                 <div className="about-container">
                     <div className="about-content">
-                        <img src="src/assets/gym-equipment.jpg" alt="gym equipment" className="about-img"/>
+                        <img src="/gym-equipment.jpg" alt="gym equipment" className="about-img"/>
                         <p className="about-text">We offer a wide range of equipments including cardio equipment, free weights and fixed resistance weights. All of our equipments are top of the range and they go through frequent maintenance to ensure they operate correctly for your safety and to prevent a broken machine from stopping your gym routine.</p>
                     </div>
                     <div className="about-content about-trainer">
                         <p className="about-text">All of our personal trainers are fully qualified and can give professional help and advice when needed.</p>
-                        <img src="src/assets/trainers.jpg" alt="personal trainer" className="about-img" />
+                        <img src="/trainers.jpg" alt="personal trainer" className="about-img" />
                     </div>
                     
                     
