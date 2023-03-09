@@ -3,6 +3,8 @@ import { MdEmail } from "react-icons/md"
 import { IoLocationSharp } from "react-icons/io5"
 import { FaFacebookSquare, FaInstagram, FaTwitter } from "react-icons/fa"
 import "./Footer.css"
+import { Link } from "react-router-dom"
+
 
 export default function Footer(){
     return(
@@ -11,13 +13,12 @@ export default function Footer(){
                 <div className="footer-menu">
                     <h3 className="heading footer-heading">Menu</h3>
                     <ul className="links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/timetable">Timetable</a></li>
-                        <li><a href="/trainers">Trainers</a></li>
-                        <li><a href="/faq">FAQ</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                        <li><a href="/membership">Join Now</a></li>
-                        
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/timetable">Timetable</Link></li>
+                        <li><Link to="/trainers">Trainers</Link></li>
+                        <li><Link to="/faq">FAQ</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/membership">Join Now</Link></li>
                     </ul>
                 </div>
 
