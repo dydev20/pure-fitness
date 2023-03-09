@@ -1,6 +1,7 @@
 import React from "react"
 import AddressMap from "./AddressMap"
 import "./Home.css"
+import { Link } from "react-router-dom"
 
 export default function Home(){
     return(
@@ -15,8 +16,8 @@ export default function Home(){
                         </div>
                     
                         <div className="cta-buttons">
-                            <a href="/membership" className="button join-btn">Join Now</a>
-                            <a href="/trainers" className="button grey-btn trainers-btn">Personal Trainers</a>
+                            <Link to="/membership" className="button join-btn">Join Now</Link>
+                            <Link to="/trainers" className="button grey-btn trainers-btn">Trainers</Link>
                             
                         </div>
                     </div>
