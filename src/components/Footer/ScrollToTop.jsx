@@ -6,12 +6,8 @@ export default function ScrollToTop() {
 
     useEffect(() => {
         
-        document.documentElement.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: "instant", // skip scrolling animation
-        });
-    }, [pathname]);
+        window.scrollTo(0,0)
+    });
 
     return null;
 }
