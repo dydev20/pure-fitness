@@ -79,11 +79,7 @@
 .about-text{
     width:50%;
 }
-.benefits-container{
-    display:flex;
-    flex-wrap: wrap;
-    border:1px solid red;
-}
+
 .benefit{
     width:40%;
     text-align: center;

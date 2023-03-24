@@ -2,6 +2,7 @@ import React from "react"
 import membershipData from "../../data/membership"
 import MembershipCard from "./MembershipCard"
 import "./Membership.css"
+import { HiOutlineDocumentText, HiOutlineClock, HiOutlineCurrencyPound, HiOutlineWifi } from "react-icons/hi"
 
 export default function Membership(){
 
@@ -14,7 +15,7 @@ export default function Membership(){
     }
 
     return(
-        <div className="membership">
+        <div className="membership page-container">
             <h1 className="heading white-heading content-heading">Memberships</h1>
             <div className="cards-container">
                 {
@@ -36,6 +37,25 @@ export default function Membership(){
             </div>
             <div className="button-container" >
                <button className="button grey-btn join-btn">Join Now</button> 
+            </div>
+
+            <div className="benefits-container">
+                <div>
+                    <HiOutlineDocumentText size="3rem"/>
+                    <h4>No contract</h4>
+                </div>
+                <div>
+                    <HiOutlineClock size="3rem"/>
+                    <h4>Open 24/7</h4>
+                </div>
+                <div>
+                    <HiOutlineCurrencyPound size="3rem"/>
+                    <h4>Low cost</h4>
+                </div>
+                <div>
+                    <HiOutlineWifi size="3rem"/>
+                    <h4>Free WiFi</h4>
+                </div>
             </div>
             
         </div>
